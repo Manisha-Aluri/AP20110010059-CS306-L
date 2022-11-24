@@ -1,5 +1,5 @@
 %{
-#include "parser.tab.h"
+#include "parser1.tab.h"
 %}
 %%
 [0-9]+ {yylval=atoi(yytext);
